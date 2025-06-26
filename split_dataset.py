@@ -2,18 +2,16 @@ import os
 import shutil
 import random
 
-# Original dataset folder (change if yours is named differently)
 source_folder = "datasets/Fruit And Vegetable Diseases Dataset"
 train_folder = "dataset/train"
 val_folder = "dataset/validation"
 
-split_ratio = 0.7  # 70% train, 30% validation
+split_ratio = 0.7  
 
-# Create train and validation folders if not exist
+
 os.makedirs(train_folder, exist_ok=True)
 os.makedirs(val_folder, exist_ok=True)
 
-# Loop over each class folder (e.g. Apple_Healthy)
 for class_name in os.listdir(source_folder):
     class_path = os.path.join(source_folder, class_name)
     if os.path.isdir(class_path):
