@@ -4,18 +4,18 @@ This project is a Deep Learning-based Smart Sorting System that classifies fruit
 
 
 ##  Project Structure
-'''
-smart_sort_project
-train_model.py
-split_dataset.py
-app.py
-healthy_vs_rotten.h5
-static
-templates
-dataset
-dataset/train
-dataset/validation
-'''
+
+smart_sort_project ->
+train_model.py ,
+split_dataset.py ,
+app.py ,
+healthy_vs_rotten.h5 ,
+static ,
+templates ,
+dataset ->
+dataset/train ,
+dataset/validation ,
+
 
 ## Dataset Used 
 *Fruit and Vegetable Diseases Dataset*  
