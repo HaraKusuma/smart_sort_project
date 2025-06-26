@@ -1,0 +1,8 @@
+dataset/
+datasets/
+*.h5
+_pycache_/
+.DS_Store
+*.png
+*.jpg
+*.jpeg
