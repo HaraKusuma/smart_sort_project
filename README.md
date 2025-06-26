@@ -5,17 +5,17 @@ This project is a Deep Learning-based Smart Sorting System that classifies fruit
 
 ##  Project Structure
 
-smart_sort_project/ 
-# Python script to train the CNN model 
-├── train_model.py    
-├── split_dataset.py         # Script to split dataset into train/test 
-├── app.py                   # Flask web app to classify uploaded images 
-├── healthy_vs_rotten.h5    # Trained Keras model 
-├── static/                 # Uploaded images and CSS 
-├── templates/            # HTML files for Flask 
-├── dataset/               # Full dataset (not uploaded due to size) │  
-  ├── train/ 
-  └── validation/
+smart_sort_project
+train_model.py
+split_dataset.py
+app.py
+healthy_vs_rotten.h5
+static
+templates
+dataset
+dataset/train
+dataset/validation
+
 
 ## Dataset Used 
 *Fruit and Vegetable Diseases Dataset*  
