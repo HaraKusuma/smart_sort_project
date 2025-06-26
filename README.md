@@ -14,16 +14,16 @@ static ,
 templates ,
 dataset ->
 dataset/train ,
-dataset/validation ,
+dataset/validation 
 
 
 ## Dataset Used 
 *Fruit and Vegetable Diseases Dataset*  
 Source: [Kaggle] (https://www.kaggle.com/datasets/)
 
-## 🧠 Model Info
+##  Model Info
 
--> Framework: TensorFlow & Keras 
- -> Model: Convolutional Neural Network (CNN)
- -> Classes: 28 total (e.g., apple_fresh, apple_rotten, banana_fresh, etc.)
+-> Framework: TensorFlow & Keras ,
+ -> Model: Convolutional Neural Network (CNN) ,
+ -> Classes: 28 total (e.g., apple_fresh, apple_rotten, banana_fresh, etc.) ,
  -> Accuracy: High for clean images
