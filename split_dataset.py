@@ -7,6 +7,10 @@ train_folder = "dataset/train"
 val_folder = "dataset/validation"
 
 split_ratio = 0.7  
+<<<<<<< HEAD
+=======
+
+>>>>>>> c030f53de01d33ec72498363afc1ad8e30dd6703
 
 os.makedirs(train_folder, exist_ok=True)
 os.makedirs(val_folder, exist_ok=True)

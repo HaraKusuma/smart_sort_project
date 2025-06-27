@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 from flask import Flask, render_template, request, redirect, url_for
+=======
+
+from flask import Flask, render_template, request
+>>>>>>> c030f53de01d33ec72498363afc1ad8e30dd6703
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np

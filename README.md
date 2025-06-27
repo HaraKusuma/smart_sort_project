@@ -19,7 +19,7 @@ dataset/validation
 
 ## Dataset Used 
 *Fruit and Vegetable Diseases Dataset*  
-Source: [Kaggle] (https://www.kaggle.com/datasets/)
+Source: [Kaggle] ([https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten])
 
 ##  Model Info
 
